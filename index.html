@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="./image/psalmotee-tech.png" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <title>WP Pusher Checkout</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header Section -->
+      <header class="header">
+        <nav class="navbar">
+          <a href="index.html" class="logo">
+            <div>
+              <img src="./image/WP Pusher Checkout.png" alt="" />
+            </div>
+          </a>
+          <ul>
+            <li><a href="index.html" class="active">Download</a></li>
+            <li><a href="#">Learn More</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Help</a></li>
+            <button type="button" class="btn-acct">Account</button>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main Section -->
+      <div class="container">
+        <div class="left-side">
+          <form action="">
+            <div class="line-bottom">
+              <h3>Checkout</h3>
+            </div>
+
+            <div class="line-bottom">
+              <p><span>1</span> Your Basic Information</p>
+
+              <div class="row">
+                <div class="column">
+                  <label for="First Name"> First Name</label>
+                  <input
+                    type="text"
+                    id="First Name"
+                    name="First Name"
+                    placeholder="Jane"
+                  />
+                </div>
+
+                <div class="column">
+                  <label for="Last Name">Last Name</label>
+                  <input
+                    type="text"
+                    id="Last Name"
+                    name="Last Name"
+                    placeholder="Doe"
+                  />
+                </div>
+              </div>
+
+              <div class="column grid-row">
+                <label for="Email">E-mail</label>
+                <input
+                  type="email"
+                  id="Email"
+                  name="Email"
+                  placeholder="janedoe@gmail.com"
+                />
+              </div>
+            </div>
+
+            <div class="line-bottom">
+              <p><span>2</span> Your Payment Information</p>
+
+              <div class="column">
+                <label for="Card Number">Credit Card</label>
+                <div class="card-details">
+                  <input
+                    type="number"
+                    name="Card Number"
+                    placeholder="Card Number"
+                  />
+                  <input type="number" name="MM/YY" placeholder="MM/YY" />
+                  <input type="number" name="CVC" placeholder="CVC" />
+                </div>
+              </div>
+            </div>
+
+            <div class="section-3">
+              <div class="column">
+                <input type="submit" name="Country" value="Buy WP Pusher" />
+              </div>
+
+              <p>
+                <span>?</span> <b>Need any help?</b> Don&#39;t hesitate to
+                contact support!
+              </p>
+
+              <p>powered by <strong>stripe</strong></p>
+            </div>
+          </form>
+        </div>
+
+        <div class="right-side">
+          <h3>Freelancer</h3>
+          <p><sup>$</sup>99<span>/year</span></p>
+          <p class="renew">Automatically renews after 1 year</p>
+
+          <ul>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="12"
+                viewBox="0 0 24 24"
+                style="fill: rgb(255, 255, 255)"
+              >
+                <path
+                  d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"
+                ></path>
+                <path
+                  d="M9.999 13.587 7.7 11.292l-1.412 1.416 3.713 3.705 6.706-6.706-1.414-1.414z"
+                ></path>
+              </svg>
+              Use on 5 client sites
+            </li>
+
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="12"
+                viewBox="0 0 24 24"
+                style="fill: rgb(255, 255, 255)"
+              >
+                <path
+                  d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"
+                ></path>
+                <path
+                  d="M9.999 13.587 7.7 11.292l-1.412 1.416 3.713 3.705 6.706-6.706-1.414-1.414z"
+                ></path>
+              </svg>
+              Private repositories
+            </li>
+
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="12"
+                viewBox="0 0 24 24"
+                style="fill: rgb(255, 255, 255)"
+              >
+                <path
+                  d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"
+                ></path>
+                <path
+                  d="M9.999 13.587 7.7 11.292l-1.412 1.416 3.713 3.705 6.706-6.706-1.414-1.414z"
+                ></path>
+              </svg>
+              Email support
+            </li>
+          </ul>
+          <div class="service">
+            <p>Need 20 client sites?</p>
+            <p class="underline">Switch to the Agency plan.</p>
+          </div>
+          <div class="line-top">
+            <p>
+              FTP is horrible to deal with. <strong>WP Pusher</strong> solves
+              that issue, and the customer support is awesome!
+            </p>
+          </div>
+          <div class="profile-con">
+            <div class="profile">
+              <img src="./image/profile.png" alt="" />
+            </div>
+
+            <div class="profile-name">
+              <p>Kirk Beard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>© 2018 WP Pusher IVS · <a>Terms of Service</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

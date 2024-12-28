@@ -351,7 +351,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 480px) {
   .wrapper {
     width: 100%;
-    max-width: fit-content;
+    max-width: 480px;
     padding: 10px 20px 20px;
   }
 

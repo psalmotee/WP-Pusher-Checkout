@@ -95,7 +95,7 @@ body {
 }
 
 .left-side {
-  width: 70%;
+  width: 60%;
 }
 
 .line-bottom {
@@ -233,7 +233,7 @@ input[type="submit"]:hover {
 
 /* Right side */
 .right-side {
-  width: 30%;
+  width: 40%;
   background-color: #117abf;
   border-radius: 0 10px 10px 0;
   padding: 40px;
